@@ -5,46 +5,276 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Firma Christian Orellana</title>
-  <!--CSS-->
-  <link rel="stylesheet" href="assets/style.css" />
-  <!--Font Awesome-->
-  <script src="https://kit.fontawesome.com/88e8e895c6.js" crossorigin="anonymous"></script>
   <!--Google Fonts - Raleway 500,800-->
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&display=swap" rel="stylesheet" />
 </head>
 
 <body>
+  <style scoped>
+    body {
+      font-family: "Raleway", sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+    }
+
+    .color_azul {
+      color: inherit;
+    }
+  </style>
+
+  <style scoped>
+    @media (max-width: 666px) {
+      .info_contacto {
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 13px;
+        padding-top: 14px;
+        padding-bottom: 150px;
+        padding-left: 20px;
+        margin-top: 170px;
+      }
+    }
+
+    @media (min-width: 667px) {
+      .info_contacto {
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 15px;
+        padding-left: 50px;
+        margin-top: 200px;
+        padding-bottom: 20px;
+        padding-top: 50px;
+        position: relative;
+      }
+    }
+  </style>
+
   <div class="info_contacto">
-    <div>
-      <img class="logo_ing_large" src="assets/photo10.png" alt="ingenieria y servicios industriales">
-    </div>
+
+    <style scoped>
+      @media (max-width: 666px) {
+        .logo_ing_large {
+          display: none;
+        }
+      }
+
+      @media (min-width: 667px) {
+        .logo_ing_large {
+          width: 240px;
+          margin-top: -220px;
+          position: absolute;
+        }
+      }
+    </style>
+    <img class="logo_ing_large" src="assets/photo10.png" alt="ingenieria y servicios industriales">
+
+    <style scoped>
+      @media (max-width: 666px) {
+        .logo_sgs_large {
+          display: none;
+        }
+      }
+
+      @media (min-width: 667px) {
+        .logo_sgs_large {
+          float: right;
+          width: 160px;
+          padding-right: 45px;
+        }
+      }
+    </style>
+
     <img class="logo_sgs_large" src="assets/logo_ISO_9001.png" alt="SGS">
-    <p>
-      Av. Ventisquero 1225, Box 126<br>
-      Renca, Santiago - CHILE<br><br>
-      Tel. : <a class="color_azul" href="tel:+56227749057">+56 2 27749057</a><br>
+    <p>Av. Ventisquero 1225,Box 126<br>
+      Renca,
+      Santiago - CHILE<br>
+      <br>Tel. : <a class="color_azul" href="tel:+56227749057">+56 2 27749057</a><br>
       Móvil. : <a class="color_azul" href="tel:+56987762925">+56 9 87 76 29 25</a><br>
       Email.: <a class="color_azul" href="mailto:c.orellana@Ing-servicios.cl">c.orellana@ing-servicios.cl</a><br>
-      <a class="color_azul" href="http://www.ing-servicios.cl/" target="_blank">http://www.ing-servicios.cl</a></p>
+      <a class="color_azul" href="http://www.ing-servicios.cl/" target="_blank">http: //www.ing-servicios.cl</a></p>
+
+    <style scoped>
+      @media (max-width: 666px) {
+        .firma_completa {
+          color: #000000;
+          margin-top: -300px;
+        }
+      }
+
+      @media (min-width: 667px) {
+        .firma_completa {
+          float: right;
+          margin-right: 610px;
+          margin-top: -350px;
+          overflow: hidden;
+          color: #000000;
+        }
+      }
+    </style>
+
     <div class="firma_completa">
+      <style scoped>
+        @media (max-width: 666px) {
+          .firma {
+            width: 320px;
+            float: left;
+            margin-bottom: 10px;
+            margin-left: -25px;
+          }
+        }
+
+        @media (min-width: 667px) {
+          .firma {
+            width: 320px;
+            display: inline;
+            margin-left: -5px;
+          }
+        }
+      </style>
+
       <img class="firma" src="assets/christianorellana.png" alt="firma christian orellana">
+
+      <style scoped>
+        @media (max-width: 666px) {
+          .christian_orellana {
+            font-size: 20px;
+          }
+        }
+
+        @media (min-width: 667px) {
+          .christian_orellana {
+            font-size: 20px;
+            margin-left: 20px;
+          }
+        }
+      </style>
+
       <h1 class="christian_orellana">CHRISTIAN ORELLANA</h1>
+
+      <style scoped>
+        @media (max-width: 666px) {
+          .ceo {
+            font-size: 15px;
+          }
+        }
+
+        @media (min-width: 667px) {
+          .ceo {
+            font-size: 15px;
+            margin-left: 20px;
+          }
+        }
+      </style>
+
       <p class="ceo">CEO & Gerente General</p>
     </div>
   </div>
+
+  <style scoped>
+    @media (max-width: 666px) {
+      .logo_ing {
+        width: 130px;
+        float: left;
+        padding-left: 8px;
+      }
+    }
+
+    @media (min-width: 667px) {
+      .logo_ing {
+        display: none;
+      }
+    }
+  </style>
+
   <img class="logo_ing" src="assets/photo10.png" alt="ingenieria y servicios industriales">
+
+  <style scoped>
+    @media (max-width: 666px) {
+      .logo_sgs {
+        width: 95px;
+        float: right;
+        padding-top: 15px;
+        padding-right: 15px;
+      }
+    }
+
+    @media (min-width: 667px) {
+      .logo_sgs {
+        display: none;
+      }
+    }
+  </style>
+
   <img class="logo_sgs" src="assets/logo_ISO_9001.png" alt="SGS">
+
+  <style scoped>
+    @media (max-width: 666px) {
+      .representantes {
+        margin-top: 15px;
+        width: 370px;
+      }
+    }
+
+    @media (min-width: 667px) {
+      .representantes {
+        width: 370px;
+        float: right;
+        padding-right: 35px;
+      }
+    }
+  </style>
+
   <img class="representantes" src="assets/respresenta.jpg" alt="reprentantes de">
+
+  <style scoped>
+    @media (max-width: 666px) {
+      .confidencial {
+        font-size: 13px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+      }
+    }
+
+    @media (min-width: 667px) {
+      .confidencial {
+        font-size: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: justify;
+        display: inline-block;
+      }
+    }
+  </style>
+
   <div class="confidencial">
-    <p>Este mensaje de correo electrónico es para uso exclusivo de los destinatarios previstos y
-      puede contener información confidencial, privilegiada y no divulgable. Se prohíbe cualquier revisión no
-      autorizada, uso, divulgación o distribución. Si no es el destinatario previsto, comuníquese con el remitente por
-      correo electrónico de respuesta inmediatamente y destruya todas y cada una de las copias del mensaje.</p>
+    <p>Este mensaje de correo electrónico es para uso exclusivo de los destinatarios previstos y puede contener
+      información confidencial,
+      privilegiada y no divulgable. Se prohíbe cualquier revisión no autorizada,
+      uso,
+      divulgación o distribución. Si no es el destinatario previsto,
+      comuníquese con el remitente por correo electrónico de respuesta inmediatamente y destruya todas y cada una de las
+      copias del mensaje.</p>
+
+    <style scoped>
+      @media (max-width: 666px) {
+        .logo_reciclaje {
+          width: 20px;
+          float: left;
+        }
+      }
+
+      @media (min-width: 667px) {
+        .logo_reciclaje {
+          width: 20px;
+          float: left;
+        }
+      }
+    </style>
+
     <img class="logo_reciclaje" src="assets/recycle.png" alt="reciclaje" />
-    <p>Por favor considere el medio ambiente
-      antes de imprimir este
-      e-mail.</p>
+    <p>Por favor considere el medio ambiente antes de imprimir este e-mail.</p>
   </div>
 </body>
 
