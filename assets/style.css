@@ -1,0 +1,159 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+  }
+
+.color_azul {
+    color: inherit;
+}
+
+
+@media (max-width: 666px) {
+    
+    .firma {
+        width: 320px;
+        float: left;
+        margin-bottom: 10px;
+        margin-left: -25px;
+    }
+
+    .christian_orellana {
+        font-size: 20px;
+    }
+
+    .ceo {
+        font-size: 15px;
+    }
+
+    .firma_completa{
+        color: #000000;
+        margin-top: -300px;
+    }
+
+    .info_contacto {
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 13px;
+        padding-top: 14px;
+        padding-bottom: 150px;
+        padding-left: 20px;
+        margin-top: 170px;
+    }
+
+    .logo_ing {
+        width: 130px;
+        float: left;
+        padding-left: 8px;
+    }
+
+    .logo_sgs {
+        width: 95px;
+        float: right;
+        padding-top: 15px;
+        padding-right: 15px;
+    }
+
+    .logo_ing_large {
+        display: none; 
+    }
+
+    .logo_sgs_large {
+        display: none;
+    }
+
+    .representantes {
+        margin-top: 15px;
+        width: 370px;
+    }
+
+    .confidencial {
+        font-size: 13px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: justify;
+    }
+
+    .logo_reciclaje {
+        width: 20px;
+        float: left;
+    }
+}
+
+@media (min-width: 667px) {
+   
+    .firma {
+        width: 320px;
+        display: inline;
+    }
+
+    .christian_orellana {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .ceo {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+
+    .firma_completa{
+        float: right;
+        margin-right: 610px;
+        margin-top: -350px;
+        overflow: hidden;
+        color: #000000;
+    }
+
+    .logo_ing {
+        display: none; 
+    }
+
+    .logo_sgs {
+        display: none;
+    }
+
+    .logo_ing_large {
+        width: 230px;
+        margin-top: -215px;
+        position: absolute;
+    }
+
+    .logo_sgs_large {
+        float:right; 
+        width: 160px;
+        padding-right: 45px;
+    }
+
+    .info_contacto {
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 15px;
+        padding-left: 50px;
+        margin-top: 200px;
+        padding-bottom: 20px;
+        padding-top: 50px;
+        position: relative;
+    }
+    
+    .representantes {
+        width: 450px;
+        float: right;
+        padding-right: 35px;
+    }
+
+    .confidencial {
+        font-size: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: justify;
+        display: inline-block;
+    }
+
+    .logo_reciclaje {
+        width: 20px;
+        float: left;
+    }
+}
+  
+}
